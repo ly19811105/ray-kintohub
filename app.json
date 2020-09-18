@@ -1,22 +1,22 @@
 {
-	"name": "V2Ray",
-	"description": "Deploy V2ray on kintohub.",
-	"keywords": ["V2Ray"],
+	"name": "W2",
+	"description": "Deploy W2 on kintohub.",
+	"keywords": ["W2"],
 	"env": {
 		"UUID": {
-			"description": "V2Ray UUID",
+			"description": "W2 UUID",
 			"value": "f011c012-5f1d-418c-9494-d24d77a9d8f9"
 		},
                 "ALTER_ID": {
-			"description": "V2Ray alterId",
-			"value": "520"
+			"description": "W2 alterId",
+			"value": "52"
 		},
                 "V2_PATH": {
-			"description": "V2Ray path",
-			"value": "/xiaonuo"
+			"description": "W2 path",
+			"value": "/ly19811105"
 		}
 	},
-	"website": "https://www.danxiaonuo.com/",
-	"repository": "https://github.com/danxiaonuo/v2ray-heroku",
+	"website": "https://www.ly19811105.com/",
+	"repository": "https://github.com/ly19811105/v2ray-heroku",
 	"stack": "container"
 }

@@ -2,8 +2,9 @@
   "inbounds": [
   {
     "port": 28811,
-    "protocol": "vmess",
+    "protocol": "vless",
     "settings": {
+      "decryption": "none",
       "clients": [
         {
           "id": "b95ef1d5-f5ac-0586-86e9-235a38dda008",

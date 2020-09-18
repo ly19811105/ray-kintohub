@@ -1,20 +1,20 @@
 {
   "inbounds": [
   {
-    "port": 443,
+    "port": 28811,
     "protocol": "vmess",
     "settings": {
       "clients": [
         {
-          "id": "f011c012-5f1d-418c-9494-d24d77a9d8f9",
-          "alterId": 520
+          "id": "b95ef1d5-f5ac-0586-86e9-235a38dda008",
+          "alterId": 64
         }
       ]
     },
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
-        "path": "/xiaonuo"
+        "path": "/ly19811105"
       }
     }
   }

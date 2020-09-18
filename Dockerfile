@@ -15,7 +15,7 @@ RUN git clone --progress https://github.com/v2fly/v2ray-core.git . && \
 # 指定创建的基础镜像
 FROM alpine:latest
 # 作者描述信息
-MAINTAINER danxiaonuo
+MAINTAINER anyone
 # 语言设置
 ENV LANG zh_CN.UTF-8
 # 时区设置
@@ -29,7 +29,7 @@ RUN apk add -U tzdata \
 && ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime \
 && echo ${TZ} > /etc/timezone
 # v2ray配置文件
-ENV CONFIG=https://raw.githubusercontent.com/danxiaonuo/v2ray-kintohub/master/config.json
+ENV CONFIG=https://raw.githubusercontent.com/ly19811105/v2ray-kintohub/master/config.json
 # 拷贝v2ray二进制文件至临时目录
 COPY --from=builder /tmp/v2ray.tgz /tmp
 

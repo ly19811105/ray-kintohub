@@ -6,7 +6,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 # 安装相关环境依赖
 RUN apk update && apk add --no-cache git bash wget curl
 # 运行工作目录
-WORKDIR /go/src/v2ray.com/core
+WORKDIR /go/src/v2/core
 # 克隆源码运行安装
 RUN git clone --progress https://github.com/ly19811105/v2.git . && \
     bash ./release/user-package.sh nosource noconf codename=$(git describe --tags) buildname=docker-fly abpathtgz=/tmp/ray.tgz

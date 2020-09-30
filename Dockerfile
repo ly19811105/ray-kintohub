@@ -26,6 +26,6 @@ ADD install-release.sh /usr/internet/install-release.sh
 # 给予脚本权限
 RUN chmod +x /usr/internet/install-release.sh
 # 指定开放Port
-EXPOSE 28811
+EXPOSE 28888
 # 执行脚本
 CMD ["bash", "/usr/internet/install-release.sh"]

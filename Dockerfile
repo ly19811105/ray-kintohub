@@ -1,6 +1,7 @@
 # 构建基础镜像
 # 指定创建的基础镜像
-FROM ubuntu:18.04
+FROM scratch
+ADD ubuntu-bionic-core-cloudimg-amd64-root.tar.gz /
 # 安装相关环境依赖
 # install git & curl & unzip & daemon
 # 更新源

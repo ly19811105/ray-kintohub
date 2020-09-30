@@ -3,7 +3,7 @@
 #
 # Version: 1.3.0
 
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 
 
 # install git & curl & unzip & daemon

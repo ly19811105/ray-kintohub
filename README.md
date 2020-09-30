@@ -1,1 +1,1 @@
-# v2ray-kintohub
+# ray-kintohub

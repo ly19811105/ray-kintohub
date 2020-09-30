@@ -1,10 +1,14 @@
 # 构建基础镜像
 # 指定创建的基础镜像
-FROM alpine:3.10
+FROM ubuntu:18.04
+
+# 安装相关环境依赖
+# install git & curl & unzip & daemon
+RUN apt-get -qq update && \
+    apt-get install -q -y git curl unzip daemon
 # 作者描述信息
 MAINTAINER anyone
-# 安装相关环境依赖
-RUN apk update && apk add --no-cache git bash wget curl
+
 # 创建工作目录
 RUN mkdir -p /go/src/v2/core
 # 运行工作目录

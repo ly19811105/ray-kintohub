@@ -1,7 +1,7 @@
 {
   "inbounds": [
   {
-    "port": 18181,
+    "port": 18881,
     "protocol": "vmess",
     "settings": {
       "clients": [
